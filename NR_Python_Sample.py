@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # coding=utf8
 
+import os
 from flask import Flask, render_template
 from flask.ext.bootstrap import Bootstrap
 from flask.ext.wtf import Form, TextField, HiddenField, ValidationError, \
     Required, RecaptchaField
+
 
 app = Flask(__name__)
 Bootstrap(app)
@@ -36,4 +38,6 @@ def index():
 
 
 if '__main__' == __name__:
-    app.run(debug=True)
+    # Bind to PORT if defined, otherwise default to 5000.
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
