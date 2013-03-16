@@ -6,7 +6,7 @@
     </list>
     <ignored path="NR_Python_Sample.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4d3ae4e4-449f-4843-83bf-92895e4a0eb4" time="1363414825885" ignored="false" />
+    <file path="/Dummy.txt" changelist="4d3ae4e4-449f-4843-83bf-92895e4a0eb4" time="1363414845908" ignored="false" />
     <file path="/README" changelist="4d3ae4e4-449f-4843-83bf-92895e4a0eb4" time="1363329401248" ignored="false" />
     <file path="/NR_Python_Sample.py" changelist="4d3ae4e4-449f-4843-83bf-92895e4a0eb4" time="1363332813591" ignored="false" />
     <file path="/noforms.html" changelist="4d3ae4e4-449f-4843-83bf-92895e4a0eb4" time="1363400976743" ignored="false" />
@@ -371,7 +371,11 @@
       <created>1363414828831</created>
       <updated>1363414828831</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="nr heroku test&#10;">
+      <created>1363414847126</created>
+      <updated>1363414847126</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -457,7 +461,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="NR specific wordage" />
+    <option name="LAST_COMMIT_MESSAGE" value="nr heroku test&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -475,6 +479,7 @@
     <MESSAGE value="Heroku Setup" />
     <MESSAGE value="Heroku Fix" />
     <MESSAGE value="NR specific wordage" />
+    <MESSAGE value="nr heroku test&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
