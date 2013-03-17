@@ -1,1 +1,1 @@
-web: python NR_Python_Sample.py
+web: newrelic-admin run-program python NR_Python_Sample.py
